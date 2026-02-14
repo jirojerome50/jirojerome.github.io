@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marché Kolwezi</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0a3d62;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #1e3799;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1607083206173-efb2f52c9c13');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background: #1e3799;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0a3d62;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Marché Kolwezi</h1>
+    <p>Site officiel - Vente & Locations</p>
+</header>
+
+<nav>
+    <a href="#">Accueil</a>
+    <a href="#">Boutiques</a>
+    <a href="#">Locations</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Bienvenue au Marché Kolwezi</h2>
+    <p>Le centre commercial moderne pour tous vos besoins</p>
+    <button>Voir les offres</button>
+</section>
+
+<section class="section">
+    <h2>Nos Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Vente</h3>
+            <p>Produits alimentaires et divers.</p>
+        </div>
+        <div class="card">
+            <h3>Location</h3>
+            <p>Boutiques et espaces commerciaux.</p>
+        </div>
+        <div class="card">
+            <h3>Sécurité</h3>
+            <p>Marché sécurisé et organisé.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background:#eaf0f1;">
+    <h2>Contact</h2>
+    <p>Email : marchekolwezi@gmail.com</p>
+    <p>Téléphone : +243 XXX XXX XXX</p>
+</section>
+
+<footer>
+    <p>© 2026 Marché Kolwezi - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>

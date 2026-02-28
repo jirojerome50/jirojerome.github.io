@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marché Kolwezi – Ventes & Locations</title>
+<title>Marché Kolwezi</title>
 
 <style>
 body {
@@ -14,87 +14,35 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg,#1f7a3a,#28a745);
+    background: #1f7a3a;
     color: white;
-    padding: 25px;
+    padding: 20px;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 28px;
-}
-
-.container {
-    max-width: 1100px;
-    margin: auto;
+section {
     padding: 20px;
-}
-
-h2 {
-    border-left: 5px solid #28a745;
-    padding-left: 10px;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
-    gap: 20px;
-    margin-top: 20px;
 }
 
 .card {
     background: white;
     padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    transition: 0.3s;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.1);
 }
 
-.card:hover {
-    transform: translateY(-5px);
-}
-
-.price {
-    color: #28a745;
-    font-weight: bold;
-}
-
-.cta {
-    background: #0f5132;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    margin-top: 40px;
-}
-
-.cta a {
-    background: #28a745;
-    padding: 12px 20px;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
-.social {
-    margin-top: 30px;
-}
-
-.social a {
-    display: inline-block;
-    margin: 5px 10px;
-    text-decoration: none;
+a {
     color: #1f7a3a;
+    text-decoration: none;
     font-weight: bold;
 }
 
 footer {
     background: #222;
-    color: #ccc;
+    color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 40px;
 }
 </style>
 </head>
@@ -106,65 +54,21 @@ footer {
 <p>Ventes • Locations • Annonces locales</p>
 </header>
 
-<div class="container">
+<section>
+<h2>À propos</h2>
+<p>Marché Kolwezi est une plateforme pour promouvoir les activités, commerces et services locaux.</p>
+</section>
 
-<h2>🔥 Annonces en vedette</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>🏠 Maison à louer</h3>
-<p>2 chambres – Quartier Industriel</p>
-<p class="price">200 000 FC / mois</p>
-</div>
+<section>
+<h2>Réseaux sociaux</h2>
 
 <div class="card">
-<h3>📱 Téléphone à vendre</h3>
-<p>Samsung Galaxy – Bon état</p>
-<p class="price">150 000 FC</p>
+📘 Facebook : <a href="#">Marché Kolwezi</a><br><br>
+▶️ YouTube : <a href="#">jirojerome</a><br><br>
+📷 Instagram : <a href="#">jirojerome</a>
 </div>
 
-<div class="card">
-<h3>🚗 Voiture occasion</h3>
-<p>Toyota IST – Propre</p>
-<p class="price">4 500 $</p>
-</div>
-
-</div>
-
-<h2>🛍 Nos Services</h2>
-<div class="cards">
-<div class="card">
-<h3>Publication d’annonces</h3>
-<p>Publiez vos biens à vendre ou à louer facilement.</p>
-</div>
-
-<div class="card">
-<h3>Promotion commerciale</h3>
-<p>Boostez votre commerce à Kolwezi.</p>
-</div>
-
-<div class="card">
-<h3>Publicité entreprise</h3>
-<p>Contactez-nous pour promouvoir votre activité.</p>
-</div>
-</div>
-
-<div class="cta">
-<h2>📢 Vous voulez publier une annonce ?</h2>
-<p>Contactez-nous maintenant sur WhatsApp</p>
-<br>
-<a href="https://wa.me/243970777278">📲 Contacter sur WhatsApp</a>
-</div>
-
-<div class="social">
-<h2>🌍 Réseaux sociaux</h2>
-<a href="#">Facebook</a>
-<a href="#">YouTube</a>
-<a href="#">Instagram</a>
-</div>
-
-</div>
+</section>
 
 <footer>
 © 2026 Marché Kolwezi • Créé par Jiro Jerome
